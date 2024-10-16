@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="https://www.webucator.com/materials/htm101/" method="post">
+        <!-- Username (text) -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <!-- Password -->
+        <label for="pw">Password:</label>
+        <input type="password" id="pw" name="pw" required><br><br>
+
+        <!-- Hidden email field -->
+        <input type="hidden" id="emailMe" name="emailMe" value="teuemail@example.com"><br><br>
+
+        <!-- Gender radio buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="genderm" name="gender" value="m">
+        <label for="genderm">Male</label><br>
+        <input type="radio" id="genderf" name="gender" value="f">
+        <label for="genderf">Female</label><br><br>
+
+        <!-- Terms checkbox -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label><br><br>
+
+        <!-- Submit and Reset buttons -->
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

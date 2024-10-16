@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; /* Cor de fundo leve */
+}
+
+nav {
+    background-color: #c40202; /* Vermelho para a barra de navegação */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    text-align: center; /* Centraliza os itens */
+}
+
+nav ul li {
+    display: inline; /* Alinha os itens horizontalmente */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    padding: 10px 15px; /* Espaçamento dentro dos links */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para a cor de fundo e texto */
+}
+
+nav ul li a:hover {
+    background-color: #a30202; /* Cor de fundo ao passar o mouse */
+    color: #FFD700; /* Muda a cor do texto ao passar o mouse */
+}

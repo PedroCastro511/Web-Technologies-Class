@@ -1,0 +1,36 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+section {
+    padding: 80px;
+}
+
+
+.grelha {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colunas */
+    gap: 60px; /* Espaçamento entre linhas */
+}
+
+.item {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f0f0; /* Cor de fundo dos itens para visibilidade */
+    padding: 20px; /* Espessura dos itens */
+    border-radius: 5px;
+}
+
+/* Layout responsivo para mobile */
+@media (max-width: 768px) {
+    .grelha {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas no mobile */
+    }
+}

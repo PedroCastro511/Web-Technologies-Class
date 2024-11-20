@@ -1,0 +1,48 @@
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.products-section {
+    padding: 80px;
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 30px; 
+}
+
+
+.product-card {
+    text-align: left;
+}
+
+.product-image {
+    width: 295px;
+    border-radius: 20px;
+    transition: color 0.3s ease;
+}
+
+.product-name {
+    margin: 16px 0 6px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product-price {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+/* Interações */
+.product-card:hover .product-price {
+    color: #3563E9;
+}
